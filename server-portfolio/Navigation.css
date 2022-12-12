@@ -1,0 +1,36 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.flex-row svg,
+.flex-row img {
+    margin-right: 15px;
+}
+
+.nav-link__label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #73767D;
+    width: 100%;
+}
+
+.nav-link__label-active {
+    border-right: 5px solid var(--background-main-color);
+    color: var(--black-color);
+}
+
+.flex-row-1 {
+    padding-top: 35px;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+.hidden-tab{
+    display: none !important;
+}
